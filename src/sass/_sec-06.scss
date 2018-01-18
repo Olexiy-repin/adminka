@@ -1,0 +1,111 @@
+#sec-06 {
+  padding-top: 5.7rem;
+  padding-bottom: 4rem;
+  background-color: #222222;
+  background-image: url("img/sec-06/bg-sm.png");
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-position: top;
+  color: #fff;
+}
+
+.sec-06__title {
+  font-family: TinkovEB;
+  font-size: pxToRem(36px);
+  text-transform: uppercase;
+  margin-bottom: 1.6rem;
+}
+
+.sec-06__subtitle {
+  font-family: TinkovEB;
+  font-size: pxToRem(20px);
+  line-height: 1.5;
+  width: 99%;
+}
+
+.break {
+  display: block;
+}
+
+#sec-06 .row [class*=col-]:first-of-type {
+  margin-bottom: 2.6rem;
+}
+
+// FORM
+#sec-12 .row [class*=col-]:first-child {
+  margin-bottom: 2.2rem;
+}
+
+.sec-12__form {
+  padding: 5rem 1.5rem 4.4rem;
+  background-color: #fff;
+}
+
+.text-input {
+  font-family: TinkovL;
+  text-indent: 7px;
+  color: #28292d;
+  border: none;
+  width: 100%;
+  border-bottom: 1px solid #cccccc;
+  margin-bottom: 2.2rem;
+  padding-bottom: .5rem;
+  font-size: 1rem;
+  &:first-child {
+    margin-bottom: 2rem;
+  }
+  &:focus {
+    outline: none;
+    border-bottom: 1px solid #b39c72;
+  }
+  &::-webkit-input-placeholder       {text-indent: 0px;   transition: text-indent 0.3s ease;}
+  &::-moz-placeholder                {text-indent: 0px;   transition: text-indent 0.3s ease;}
+  &:-moz-placeholder                 {text-indent: 0px;   transition: text-indent 0.3s ease;}
+  &:-ms-input-placeholder            {text-indent: 0px;   transition: text-indent 0.3s ease;}
+  &:focus::-webkit-input-placeholder {text-indent: 500px; transition: text-indent 0.3s ease;}
+  &:focus::-moz-placeholder          {text-indent: 500px; transition: text-indent 0.3s ease;}
+  &:focus:-moz-placeholder           {text-indent: 500px; transition: text-indent 0.3s ease;}
+  &:focus:-ms-input-placeholder      {text-indent: 500px; transition: text-indent 0.3s ease;}
+}
+
+::-webkit-input-placeholder {
+  color: #28292d;
+}
+
+::-moz-placeholder {
+  color: #28292d;
+}
+
+:-ms-input-placeholder {
+  color: #28292d;
+}
+
+:-moz-placeholder {
+  color: #28292d;
+}
+
+.btn {
+  width: 100%;
+  display: block;
+  border: none;
+  background-color: #28292d;
+  color: #fff;
+  padding: 1rem 0;
+  font-size: pxToRem(14px);
+  font-family: TinkovEB;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  cursor: pointer;
+  transition: opacity .5s linear;
+  box-shadow: 0 0 18px 9px #ccc;
+  margin-top: .4rem;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border-radius: 0;
+  &:hover {
+      transition: all .3s;
+      background-color: rgb(28, 84, 233);
+      box-shadow: 0 0 33.6px 1.4px rgba(28, 84, 233, 0.8);
+  }
+}

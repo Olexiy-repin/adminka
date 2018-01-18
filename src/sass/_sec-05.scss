@@ -1,0 +1,33 @@
+#sec-05 {
+  padding-top: 5.7rem;
+  padding-bottom: 6rem;
+  background-color: #f7f7f7;
+  background-image: url("img/sec-05/bg-lines.png");
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-position: top;
+  color: #28292d;
+}
+
+.sec-05__title {
+  font-family: TinkovEB;
+  font-size: pxToRem(30px);
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: .8rem;
+}
+
+.sec-05__subtitle {
+  font-family: TinkovL;
+  text-align: center;
+  line-height: 1.4;
+  margin-bottom: 1rem;
+}
+
+.sec-05__close-img {
+  text-align: center;
+}
+
+.sec-05__img {
+  width: 1rem;
+}

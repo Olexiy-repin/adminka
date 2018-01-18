@@ -154,18 +154,18 @@
   .header-paragraph {
     display: none;
   }
+
+  .sec-01__inform-text {
+    display: none;
+  }
 }
 
 @media (min-width: 768px) {
   #sec-01 {
     padding-top: 1.2rem;
-    padding-bottom: 15.1rem;
-    background-image: url("img/sec-01/bg-lines-md.png"), url("img/sec-01/bg-md-01.png");
-    background-size: auto, cover;
-    background-position: top, top;
-    background-repeat: no-repeat, no-repeat;
+    padding-bottom: 1.4rem;
+    background-image: url("img/sec-01/bg-md.png");
   }
-
 
   #sec-01 .row:last-child [class*= col-]:first-child {
     text-align: left;
@@ -200,38 +200,61 @@
   }
 
   .sec-01__title {
-    font-size: pxToRem(48px);
+    font-size: pxToRem(36px);
+    padding: 0 .4rem;
     text-align: left;
-    margin-bottom: .8rem;
+    margin-bottom: 1.1rem;
   }
 
   .sec-01__paragraph {
     font-size: pxToRem(20px);
-    padding: 0 1rem 0 .5rem;
-    margin-bottom: 3.6rem;
+    padding: 0 4rem 0 .5rem;
+    margin-bottom: 3.2rem;
   }
 
   #sec-01 .row:first-child {
-    margin-bottom: 15.2rem;
+    margin-bottom: 14.7rem;
   }
 
   .sec-01__btn-container {
     width: 21rem;
-    margin-left: .5rem;
+    margin-left: 3rem;
     display: flex;
     align-items: center;
-    justify-content: center;
-    margin-bottom: .5rem;
+    margin-bottom:16.8rem;
   }
 
-  .sec-01__under-btn-p {
-    padding: 0 .5rem;
+  .sec-01__before-btn-p {
+    padding: 0 .6rem;
+    font-size: pxToRem(18px);
+    letter-spacing: 5px;
+    margin-bottom: 1.6rem;
   }
 
   .sec-01__link {
     &::before {
       content: url("img/sec-01/border-btn-md.png");
     }
+  }
+
+  .sec-01__inform-text {
+    font-family: TinkovL;
+    display: flex;
+    font-size: pxToRem(14px);
+    width: 42%;
+    color: rgb(122, 122, 122);
+    line-height: 1.4;
+    padding-left: .5rem;
+  }
+
+  .sec-01__inform-img {
+    margin-right: .8rem;
+    padding-top: .1rem;
+  }
+
+  .sec-01__inform-svg {
+    width: .9rem;
+    fill: rgb(122, 122, 122);
   }
 
   .sec-01__bg-color {
@@ -246,7 +269,7 @@
   #sec-01 .menu_link {
     position: absolute;
     right: 8%;
-    bottom: -54%;
+    bottom: 0;
   }
 }
 
@@ -284,4 +307,45 @@
   #sec-01 .menu_link {
     right: 1%;
   }
+}
+
+@media (min-width: 1200px) {
+  #sec-01 {
+    background-image: url("img/sec-01/bg-lg.png");
+  }
+
+  #sec-01 .row:first-child {
+    margin-bottom: 15.4rem;
+  }
+
+  .sec-01__before-btn-p {
+    padding: 0 .2rem;
+    margin-bottom: .8rem;
+  }
+
+  .sec-01__title {
+    font-size: pxToRem(48px);
+    padding: 0;
+    width: 100%;
+    margin-bottom: 1.5rem;
+  }
+
+  .sec-01__paragraph {
+    width: 55%;
+    margin-bottom: 2.5rem;
+  }
+
+  .sec-01__link {
+    margin-left: 2.5rem;
+  }
+
+  .sec-01__btn-container {
+    margin-bottom: 14.4rem;
+  }
+
+  .sec-01__inform-text {
+    padding: 0;
+    width: 32%;
+  }
+
 }

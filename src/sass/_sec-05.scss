@@ -31,3 +31,34 @@
 .sec-05__img {
   width: 1rem;
 }
+
+@media (min-width: 768px) {
+  #sec-05 {
+    background-image: url("img/sec-05/bg-lines-md.png");
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: top;
+  }
+
+  .sec-05__title {
+    font-size: pxToRem(36px);
+  }
+
+  .sec-05__subtitle {
+    margin-bottom: 1.5rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  #sec-05 {
+    padding-top: 6.9rem;
+    padding-bottom: 7.2rem;
+    background-image: url("img/sec-05/bg-lines-lg.png");
+  }
+
+  .sec-05__title {
+    margin: auto;
+    width: 69%;
+    margin-bottom: .8rem;
+  }
+}

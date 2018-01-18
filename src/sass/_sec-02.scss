@@ -88,3 +88,146 @@
   width: pxToRem(257px);
   margin-top: 2rem;
 }
+
+@media (min-width: 768px) {
+  #sec-02 {
+    padding-top: 7.9rem;
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: top;
+    background: url("img/sec-02/bg-lines-md.png");
+  }
+
+  .top-block {
+    margin-bottom: 5.5rem;
+  }
+
+  .top-block__title {
+    font-size: pxToRem(48px);
+    width: 93%;
+    margin: auto;
+  }
+
+  .top-block__picture {
+    display: block;
+    text-align: center;
+  }
+
+   #sec-02 .row:first-child {
+    margin-bottom: 3.4rem;
+  }
+
+   #sec-02 .top-block .row:last-of-type [class*=col-]:first-of-type {
+     margin-bottom: 3.5rem;
+   }
+
+  .top-block__text-container {
+    padding-left: 8.3rem;
+  }
+
+  .top-block__subtitle {
+    font-size: pxToRem(24px);
+    margin-bottom: 1rem;
+  }
+
+  .top-block__description {
+    margin-bottom: 2.1rem;
+  }
+
+  .top-block__description:last-child .top-block__paragraph:first-of-type {
+    padding-right: 5rem;
+  }
+
+  //
+  .bottom-block {
+    padding-left: 8.3rem;
+  }
+
+  #sec-02 .bottom-block .row [class*=col-]:first-of-type {
+    margin-bottom: 3.9rem;
+  }
+
+  .bottom-block__subtitle {
+    font-size: pxToRem(24px);
+    width: 62%;
+    margin-bottom: .9rem;
+  }
+
+  .bottom-block__paragraph {
+    width: 89%;
+  }
+
+  .bottom-block__picture {
+    display: block;
+    &::before {
+      display: none;
+    }
+  }
+
+  .bottom-block__img {
+    width: inherit;
+    margin-top: 0;
+  }
+}
+
+@media (min-width: 1200px) {
+  #sec-02 {
+    background: url("img/sec-02/bg-lines-lg.png");
+    padding-top: 7.9rem;
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: top;
+  }
+
+  .top-block {
+    margin-bottom: 3.6rem;
+  }
+
+  .top-block__title {
+    text-align: left;
+    margin: 0;
+    width: 61%;
+  }
+
+  .top-block__text-container {
+    padding-left: 6.5rem;
+    margin-top: 1.3rem;
+  }
+
+  .top-block__paragraph {
+    width: 67%;
+    &:last-child {
+      width: 74%;
+    }
+  }
+
+  .top-block__description {
+    margin-bottom: 2.5rem;
+  }
+
+  .top-block__description:last-child .top-block__paragraph:first-of-type {
+    padding-right: 1rem;
+    margin-bottom: 1.1rem;
+  }
+
+  .bottom-block {
+    padding: 0;
+  }
+
+  #sec-02 .bottom-block .row [class*=col-]:first-of-type {
+    margin-bottom: 0;
+  }
+
+  .sec-02__bottom-text-container {
+    margin-top: 6.5rem;
+    padding-left: 6.1rem;
+  }
+
+  .bottom-block__subtitle {
+    width: 83%;
+  }
+
+  .bottom-block__paragraph {
+    width: 65%;
+  }
+}

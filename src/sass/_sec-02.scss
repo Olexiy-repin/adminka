@@ -1,0 +1,90 @@
+#sec-02 {
+  padding-top: 3.9rem;
+  padding-bottom: 3rem;
+  background: url("img/sec-02/bg-lines.png");
+  background-position: top;
+  background-size: auto;
+  background-repeat: no-repeat;
+}
+
+// TOP BLOCK
+.top-block {
+  margin-bottom: 3.8rem;
+}
+
+.top-block__title {
+  font-family: TinkovEB;
+  font-size: pxToRem(36px);
+  text-transform: uppercase;
+  text-align: center;
+  color: #28292d;
+}
+
+#sec-02 .row:first-child {
+  margin-bottom: 2.4rem;
+}
+
+#sec-02 .row:last-child [class*=col-]:first-child {
+  margin-bottom: 2.4rem;
+}
+
+.top-block__subtitle {
+  font-family: TinkovEB;
+  font-size: pxToRem(20px);
+  margin-bottom: .7rem;
+  color: #28292d;
+}
+
+.top-block__paragraph {
+  font-family: TinkovL;
+  line-height: 1.4;
+  color: #28292d;
+}
+
+.top-block__description {
+  margin-bottom: 1.6rem;
+  &:last-child {
+    margin-bottom: 0;
+    .top-block__paragraph:first-of-type {
+      margin-bottom: .7rem;
+    }
+  }
+}
+
+// SECOND BLOCK
+.bottom-block__subtitle {
+  font-family: TinkovEB;
+  font-size: pxToRem(20px);
+  margin-bottom: .6rem;
+  color: #28292d;
+}
+
+.bottom-block__paragraph {
+  font-family: TinkovL;
+  line-height: 1.5;
+  color: #28292d;
+}
+
+.gd-color {
+  font-family: TinkovEB;
+  color: #a38f6a;
+}
+
+.bottom-block__picture {
+  position: relative;
+  display: block;
+  &::before {
+    position: absolute;
+    top: -1.6rem;
+    left: .2rem;
+    display: block;
+    content: url("img/sec-02/gif-bg.png");
+    z-index: -1;
+  }
+}
+
+.bottom-block__img {
+  display: block;
+  width: pxToRem(257px);
+  margin-top: 2rem;
+}

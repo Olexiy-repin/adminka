@@ -138,10 +138,13 @@
   }
 
   .sec-04__picture {
+    display: flex;
+    justify-content: center;
     min-height: pxToRem(440px);
   }
 
   .sec-04__img {
+    position: static;
     top: 0;
     left: -.4rem;
   }

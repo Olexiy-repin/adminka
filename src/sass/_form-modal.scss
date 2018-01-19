@@ -85,20 +85,15 @@
   padding: 0;
 }
 
-@media (max-width: 767px) {
-  #myModal .modal-title {
-    font-size: pxToRem(36px);
-    margin-bottom: 2.5rem;
-  }
+.modal-content {
+  padding: 3rem 1.5rem 3rem;
+}
 
-  .modal-content {
-    width: 92%;
-    margin: auto;
-  }
+@media (max-width: 767px) {
 
   #myModal .form-container {
     padding: 0;
-    width: 78%;
+    // width: 78%;
   }
 }
 
@@ -106,5 +101,15 @@
   #myModal .form-container {
     padding: 0;
     width: 100%;
+  }
+
+  .modal-content {
+    padding: 4.4rem 0 4.4rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  .modal-content {
+    padding: 4.4rem 0 4.4rem;
   }
 }

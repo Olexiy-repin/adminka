@@ -5,16 +5,29 @@
   left: 50%;
   transform: translate(-50%, -50%);
   background-color: #fefefe;
-  padding: 4rem 0;
   border: 1px solid #888;
-  animation-name: modal-appear;
-  animation-timing-function: linear;
-  animation-fill-mode: forwards;
-  animation-duration: 180ms;
-  transform-origin: center center;
-  min-width: 19rem;
-  max-width: 30rem;
   border-radius: 3px;
+  width: 98%;
+  // padding: 4rem 0;
+  // animation-name: modal-appear;
+  // animation-timing-function: linear;
+  // animation-fill-mode: forwards;
+  // animation-duration: 180ms;
+  // transform-origin: center center;
+  // min-width: 19rem;
+  // max-width: 30rem;
+}
+
+@media (min-width: 768px) {
+  .white-popup {
+    width: 68%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .white-popup {
+    width: 30%;
+  }
 }
 
 .mfp-bg {

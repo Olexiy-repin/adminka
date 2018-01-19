@@ -52,6 +52,14 @@
   }
 }
 
+.top-block__picture {
+  display: block;
+}
+
+.top-block__img {
+  width: 100%;
+}
+
 // SECOND BLOCK
 .bottom-block__subtitle {
   font-family: TinkovEB;
@@ -85,9 +93,14 @@
   }
 }
 
+.bottom-block__img-container {
+  display: flex;
+  justify-content: center;
+}
+
 .bottom-block__img {
   display: block;
-  width: pxToRem(289.6px);
+  width: 16rem;
   margin-top: 2rem;
 }
 
@@ -113,6 +126,10 @@
   .top-block__picture {
     display: block;
     text-align: center;
+  }
+
+  .top-block__img {
+    width: auto;
   }
 
    #sec-02 .row:first-child {
@@ -143,6 +160,10 @@
   //
   .bottom-block {
     padding-left: 8.3rem;
+  }
+
+  .bottom-block__img-container {
+    display: block;
   }
 
   #sec-02 .bottom-block .row [class*=col-]:first-of-type {

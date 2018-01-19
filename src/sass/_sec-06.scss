@@ -170,6 +170,10 @@
       width: 64%;
       margin: auto;
     }
+
+    #sec-06 br {
+      display: none;
+    }
 }
 
 @media (min-width: 1200px) {
@@ -180,14 +184,14 @@
   .sec-06__title {
     margin: 0;
     padding: 0;
-    width: 90%;
+    width: 92%;
     margin-bottom: 2.5rem;
   }
 
   .sec-06__subtitle {
     width: 100%;
     margin: 0;
-    padding: 0 7rem 0 6rem;
+    padding: 0 6.9rem 0 6rem;
     &::before {
       left: 0;
       top: .8rem;

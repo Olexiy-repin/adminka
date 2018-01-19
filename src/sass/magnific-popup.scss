@@ -7,12 +7,14 @@
   background-color: #fefefe;
   padding: 4rem 0;
   border: 1px solid #888;
-  width: 30rem;
+  // width: 30rem;
   animation-name: modal-appear;
   animation-timing-function: linear;
   animation-fill-mode: forwards;
   animation-duration: 180ms;
   transform-origin: center center;
+  min-width: 19rem;
+  max-width: 30rem;
 }
 
 .mfp-bg {

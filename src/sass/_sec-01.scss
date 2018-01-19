@@ -112,6 +112,7 @@
 }
 
 .sec-01__link {
+  text-decoration: none;
   position: relative;
   letter-spacing: 1.7px;
   display: inline-block;
@@ -280,7 +281,10 @@
     }
 }
   #sec-01 {
-    background-image: url("img/sec-01/bg-lg.png");
+    background-image: url("img/sec-01/bg-lines-lg.png"), url("img/sec-01/bg-lg.png");
+    background-position: top, top;
+    background-size: auto, auto;
+    background-repeat: no-repeat, no-repeat;
   }
 
   .header {

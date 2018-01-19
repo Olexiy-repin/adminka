@@ -79,6 +79,7 @@
 
 .sec-04__picture {
   display: block;
+  width: 100%;
   position: relative;
   height: pxToRem(289px);
 }
@@ -86,7 +87,7 @@
 .sec-04__img {
   position: absolute;
   top: 1.5rem;
-  left: -.96rem;
+  right: -.96rem;
 }
 
 @media (min-width: 768px) {

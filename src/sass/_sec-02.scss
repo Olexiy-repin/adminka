@@ -77,7 +77,7 @@
   display: block;
   &::before {
     position: absolute;
-    top: -1.6rem;
+    top: -1.4rem;
     left: .2rem;
     display: block;
     content: url("img/sec-02/gif-bg.png");
@@ -87,7 +87,7 @@
 
 .bottom-block__img {
   display: block;
-  width: pxToRem(257px);
+  width: pxToRem(289.6px);
   margin-top: 2rem;
 }
 
